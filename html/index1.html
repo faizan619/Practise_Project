@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./html/css/login.css">
+    <!-- <link rel="stylesheet" href="./javascript/login.js"> -->
+    <link rel="stylesheet" href="./html/portfolio.html">
+    <link rel="stylesheet" href="./javascript/login.js">
+    <style>
+        :root{
+        background-color:aliceblue;
+        background: url('https://source.unsplash.com/random') center center/cover;;
+        content: "";
+        height: 100vh;
+        background-color: black;
+        opacity: .9;
+        z-index: -1;
+
+        }
+        .whole{
+        font-weight: bold;
+        font-style: italic;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .login:hover{
+            border-top-color: purple;
+            border-bottom-color: chartreuse;
+            border-left-color: darkorange;
+            border-right-color: orangered;
+        }
+        .login{
+            position:absolute;
+            left: 20rem;
+
+            top: 5rem;
+            /* width: 20rem; */
+            width: 30rem;
+            border-radius: 5rem;
+            word-spacing: 1rem;
+            padding: 1rem 3rem 3rem 3rem;
+            border: 4px solid red;
+            /* border-top-color: purple;
+            border-bottom-color: chartreuse;
+            border-left-color: darkorange;
+            border-right-color: orangered; */
+        }
+        .n{
+            text-align: center;
+        }
+        hr{
+            color: green;
+        }
+        #lo0{
+            border: 6px solid red;
+            border-left-color: red;
+            border-right-color: yellow;
+            border-top-color: green;
+            border-bottom-color: blue;
+            display: inline-block;
+            padding: .6rem;
+            border-radius: 1rem 2rem 1rem 1.6rem;
+            font-weight: italic;
+            background-color: black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        
+       
+        .back{
+            /* border: 3px solid red; */
+            /* border: 2px solid red; */
+            width: 8rem;
+            position: absolute;
+            text-align: center;
+            padding: 2rem;
+            border-radius: 100%;
+            left: 62rem;
+            top: 23rem;
+            cursor: cell;
+        }
+        
+        #con{
+            background-color: black;
+            border: 2px solid white;
+            color: white;
+            border-radius: .6rem;
+            padding: .3rem;
+
+        }
+        
+        #mycom{
+            margin: .1rem;
+            /* padding: -20rem; */
+
+        }
+        </style>
+    <title>FeedBack Page</title>
+</head>
+
+<body>
+    <script src="./html/javascript/login.js"></script>
+    <div class="whole">
+        
+        <div class="login">
+            <div class="n">
+            <h2 id="lo0">Thank you for Visiting</h2></div>
+            <hr><br>
+            <form action="./html/portfolio.html" target="_blank" id="form" name="myform" onsubmit="return validateForm()">
+                <div class="comment">
+                    <label for="com" id="con">Enter you Feedback:</label>
+                    <br><br><input type="text" name="com" id="mycom" placeholder="My Page is the Best">
+                </div>
+                
+            </form>
+            <br><hr>
+        </div>
+        
+    </div>
+    <script>
+        function blank(){
+        alert(`This was not expected from you ${a} \nJust go away from my page. You Fool😑`);
+        let l = document.history;
+        // history.go(-1);
+        // console.log(l)
+        }
+        function happy(){
+            alert(`Thank you soo much ${a} 😊  `);
+            let l = document.history;
+            // history.go(-1);
+            // console.log(l)
+        }
+    </script>
+</body>
+
+</html>

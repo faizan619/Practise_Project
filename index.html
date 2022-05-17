@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./html/css/login.css">
+    <!-- <link rel="stylesheet" href="./javascript/login.js"> -->
+    <link rel="stylesheet" href="./html/portfolio.html">
+    <link rel="stylesheet" href="#">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <script src="./html/javascript/login.js"></script>
+    <div class="whole">
+        
+        <div class="login">
+            <div class="n">
+            <h2 id="lo0">Faizan Login Page</h2></div>
+            <hr><br>
+            <form action="./html/portfolio.html" target="_blank" id="form" name="myform" onsubmit="return validateForm()">
+                <div class="name">
+                    <label for="name" id="nam">UserName:</label>
+                    <input type="text" name="name" class="formerror" id="myname" placeholder="Enter UserName:" required>
+                </div><br>
+                <div class="number">
+                    <label for="number" id="call">Date of Birth:</label>
+                    <input type="date" name="number" class="formerror" id="mynumber" placeholder="Enter Phone number:">
+
+                </div><br>
+                <!-- <div class="email">
+                    <label for="email" id="mail">Email:</label>
+                    <input type="email" name="email" id="myemail" placeholder="Eg: abc@gmail.com">
+                </div><br> -->
+                <div class="pass">
+                    <label for="pass" id="pass1">Enter password:</label>
+                    <input type="password" name="pass" class="formerror" id="pass2" placeholder="Enter new Pasword" required><br><br>
+                    <label for="pass" id="pass3">Conform password:</label>
+                    <input type="password" name="pass" class="formerror"  id="pass4" placeholder="Enter confirm Pasword" required>
+                </div><br>
+                <div class="button">
+                    <input type="submit" value="submit✔" id="submit">
+                    <input type="reset" value="cancel❌" id="cancel">
+                </div>
+            </form>
+            <br><hr>
+        </div>
+        <div class="back">
+            <div class="can">
+                <p>Hope you like the Page?</p>
+                <form action="#">
+                    <div class="button">
+                        <input type="button" onclick="return happy()" value="Yes✔" id="Yes">
+                        <input type="button" onclick="return blank()" value="No❌" id="No">
+                    </div>
+                </form>
+
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+</html>

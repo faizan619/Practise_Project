@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sectionbar .secta{
+    height: 100vh;
+    background-color: black;
+
+}
+#sect1:hover{
+    border-top-color: purple;
+    border-bottom-color: chartreuse;
+    border-left-color: darkorange;
+    border-right-color: orangered;
+}
+#sect1{
+    border: 4px solid red;
+    width: 60rem;
+    padding: 2rem;
+    word-spacing: .4rem;
+    display: inline-block;
+    color: white;
+    position: absolute;
+    top: 8rem;
+    left: 3rem;
+    border-radius: 2rem;
+}
+#sect2{
+    display: inline-block;
+}
+#sect2 img{
+    width: 35.3em;
+    position: absolute;
+    top: 5rem;
+    right: 2rem;
+    z-index: 2;
+    /* border: 2px solid red; */
+}
+#yo{
+    font-style: underline;
+}
